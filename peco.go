@@ -18,13 +18,13 @@ import (
 	"context"
 
 	"github.com/google/btree"
+	"github.com/lalitadithya/peco/filter"
+	"github.com/lalitadithya/peco/hub"
+	"github.com/lalitadithya/peco/internal/util"
+	"github.com/lalitadithya/peco/line"
+	"github.com/lalitadithya/peco/pipeline"
+	"github.com/lalitadithya/peco/sig"
 	"github.com/lestrrat-go/pdebug"
-	"github.com/peco/peco/filter"
-	"github.com/peco/peco/hub"
-	"github.com/peco/peco/internal/util"
-	"github.com/peco/peco/line"
-	"github.com/peco/peco/pipeline"
-	"github.com/peco/peco/sig"
 	"github.com/pkg/errors"
 )
 

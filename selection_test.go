@@ -3,7 +3,7 @@ package peco
 import (
 	"testing"
 
-	"github.com/peco/peco/line"
+	"github.com/lalitadithya/peco/line"
 )
 
 func TestSelection(t *testing.T) {

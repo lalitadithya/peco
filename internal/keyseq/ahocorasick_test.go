@@ -3,7 +3,7 @@ package keyseq
 import (
 	"testing"
 
-	"github.com/nsf/termbox-go"
+	"github.com/lalitadithya/termbox-go"
 )
 
 func checkNode(t *testing.T, node Node, size int, data nodeData) {

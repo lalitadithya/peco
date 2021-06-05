@@ -1,6 +1,6 @@
 package peco
 
-import "github.com/nsf/termbox-go"
+import "github.com/lalitadithya/termbox-go"
 
 func (t *Termbox) PostInit(cfg *Config) error {
 	// Windows handle Esc/Alt self

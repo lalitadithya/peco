@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/peco/peco/hub"
+	"github.com/lalitadithya/peco/hub"
 )
 
 func TestHub(t *testing.T) {

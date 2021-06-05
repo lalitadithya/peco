@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/peco/peco/line"
-	"github.com/peco/peco/pipeline"
+	"github.com/lalitadithya/peco/line"
+	"github.com/lalitadithya/peco/pipeline"
 )
 
 var ErrFilterNotFound = errors.New("specified filter was not found")

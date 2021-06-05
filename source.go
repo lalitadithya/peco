@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/lalitadithya/peco/internal/util"
+	"github.com/lalitadithya/peco/line"
+	"github.com/lalitadithya/peco/pipeline"
 	"github.com/lestrrat-go/pdebug"
-	"github.com/peco/peco/internal/util"
-	"github.com/peco/peco/line"
-	"github.com/peco/peco/pipeline"
 )
 
 // Creates a new Source. Does not start processing the input until you

@@ -7,10 +7,10 @@ import (
 	"time"
 	"unicode/utf8"
 
+	"github.com/lalitadithya/peco/line"
+	"github.com/lalitadithya/termbox-go"
 	"github.com/lestrrat-go/pdebug"
 	"github.com/mattn/go-runewidth"
-	"github.com/nsf/termbox-go"
-	"github.com/peco/peco/line"
 	"github.com/pkg/errors"
 )
 

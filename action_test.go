@@ -7,8 +7,8 @@ import (
 
 	"context"
 
-	"github.com/nsf/termbox-go"
-	"github.com/peco/peco/filter"
+	"github.com/lalitadithya/peco/filter"
+	"github.com/lalitadithya/termbox-go"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -204,7 +204,7 @@ func TestDoDeleteBackwardWord(t *testing.T) {
 	c.SetPos(5)
 	doDeleteBackwardWord(ctx, state, termbox.Event{})
 
-	// https://github.com/peco/peco/pull/184#issuecomment-54026739
+	// https://github.com/lalitadithya/peco/pull/184#issuecomment-54026739
 
 	// Case 1. " foo<caret>" -> " "
 	q.Set(" foo")

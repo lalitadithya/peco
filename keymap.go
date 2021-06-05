@@ -2,13 +2,13 @@ package peco
 
 import (
 	"context"
+	"github.com/lalitadithya/peco/internal/keyseq"
+	"github.com/lalitadithya/termbox-go"
+	"github.com/lestrrat-go/pdebug"
+	"github.com/pkg/errors"
 	"sort"
 	"strings"
 	"time"
-	"github.com/lestrrat-go/pdebug"
-	"github.com/nsf/termbox-go"
-	"github.com/peco/peco/internal/keyseq"
-	"github.com/pkg/errors"
 )
 
 // NewKeymap creates a new Keymap struct

@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"context"
-	termbox "github.com/nsf/termbox-go"
+	termbox "github.com/lalitadithya/termbox-go"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,9 +5,9 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/peco/peco/internal/util"
-	"github.com/peco/peco/line"
-	"github.com/peco/peco/pipeline"
+	"github.com/lalitadithya/peco/internal/util"
+	"github.com/lalitadithya/peco/line"
+	"github.com/lalitadithya/peco/pipeline"
 )
 
 // NewFuzzy builds a fuzzy-finder type of filter.

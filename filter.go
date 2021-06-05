@@ -6,12 +6,12 @@ import (
 
 	"context"
 
+	"github.com/lalitadithya/peco/filter"
+	"github.com/lalitadithya/peco/hub"
+	"github.com/lalitadithya/peco/internal/buffer"
+	"github.com/lalitadithya/peco/line"
+	"github.com/lalitadithya/peco/pipeline"
 	"github.com/lestrrat-go/pdebug"
-	"github.com/peco/peco/filter"
-	"github.com/peco/peco/hub"
-	"github.com/peco/peco/internal/buffer"
-	"github.com/peco/peco/line"
-	"github.com/peco/peco/pipeline"
 )
 
 func newFilterProcessor(f filter.Filter, q string) *filterProcessor {

@@ -6,9 +6,9 @@ import (
 	"context"
 	"os/exec"
 
+	"github.com/lalitadithya/peco/line"
+	"github.com/lalitadithya/peco/pipeline"
 	pdebug "github.com/lestrrat-go/pdebug"
-	"github.com/peco/peco/line"
-	"github.com/peco/peco/pipeline"
 	"github.com/pkg/errors"
 )
 

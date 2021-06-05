@@ -4,8 +4,8 @@ import (
 	"testing"
 	"unicode/utf8"
 
+	"github.com/lalitadithya/termbox-go"
 	"github.com/mattn/go-runewidth"
-	"github.com/nsf/termbox-go"
 )
 
 func TestLayoutType(t *testing.T) {

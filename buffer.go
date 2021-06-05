@@ -5,10 +5,10 @@ import (
 
 	"context"
 
+	"github.com/lalitadithya/peco/line"
+	"github.com/lalitadithya/peco/pipeline"
 	"github.com/lestrrat-go/pdebug"
 	runewidth "github.com/mattn/go-runewidth"
-	"github.com/peco/peco/line"
-	"github.com/peco/peco/pipeline"
 	"github.com/pkg/errors"
 )
 

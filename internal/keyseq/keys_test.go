@@ -4,7 +4,7 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/nsf/termbox-go"
+	"github.com/lalitadithya/termbox-go"
 )
 
 func TestKeymapStrToKeyValue(t *testing.T) {

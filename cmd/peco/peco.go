@@ -7,9 +7,9 @@ import (
 
 	"context"
 
+	"github.com/lalitadithya/peco"
+	"github.com/lalitadithya/peco/internal/util"
 	"github.com/lestrrat-go/pdebug"
-	"github.com/peco/peco"
-	"github.com/peco/peco/internal/util"
 )
 
 func main() {

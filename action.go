@@ -11,11 +11,11 @@ import (
 	"context"
 
 	"github.com/google/btree"
+	"github.com/lalitadithya/peco/internal/keyseq"
+	"github.com/lalitadithya/peco/internal/util"
+	"github.com/lalitadithya/peco/line"
+	"github.com/lalitadithya/termbox-go"
 	"github.com/lestrrat-go/pdebug"
-	"github.com/nsf/termbox-go"
-	"github.com/peco/peco/internal/keyseq"
-	"github.com/peco/peco/internal/util"
-	"github.com/peco/peco/line"
 	"github.com/pkg/errors"
 )
 
@@ -332,7 +332,7 @@ func doFinish(ctx context.Context, state *Peco, _ termbox.Event) {
 	})
 
 	var err error
-	state.Hub().SendStatusMsg(ctx, "Executing " + ccarg)
+	state.Hub().SendStatusMsg(ctx, "Executing "+ccarg)
 	cmd := util.Shell(ccarg)
 	cmd.Stdin = &stdin
 	cmd.Stdout = state.Stdout

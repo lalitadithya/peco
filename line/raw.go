@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/google/btree"
-	"github.com/peco/peco/internal/util"
+	"github.com/lalitadithya/peco/internal/util"
 )
 
 // NewRaw creates a new Raw. The `enableSep` flag tells
@@ -76,4 +76,3 @@ func (rl Raw) Output() string {
 	}
 	return rl.buf
 }
-

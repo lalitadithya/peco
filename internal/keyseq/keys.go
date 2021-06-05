@@ -5,7 +5,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/nsf/termbox-go"
+	"github.com/lalitadithya/termbox-go"
 	"github.com/pkg/errors"
 )
 

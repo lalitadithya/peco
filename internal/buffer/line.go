@@ -3,7 +3,7 @@ package buffer
 import (
 	"sync"
 
-	"github.com/peco/peco/line"
+	"github.com/lalitadithya/peco/line"
 )
 
 const filterBufSize = 1000

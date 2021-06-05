@@ -5,8 +5,8 @@ import (
 
 	"context"
 
+	"github.com/lalitadithya/termbox-go"
 	"github.com/lestrrat-go/pdebug"
-	"github.com/nsf/termbox-go"
 )
 
 func NewInput(state *Peco, am ActionMap, src chan termbox.Event) *Input {

@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nsf/termbox-go"
+	"github.com/lalitadithya/termbox-go"
 	"github.com/pkg/errors"
 )
 

@@ -6,15 +6,15 @@ Simplistic interactive filtering tool
 
 This README is long and comprehensive. Use the [Table of Contents](#table-of-contents) to navigate to the section that interests you. It has been placed at the bottom of the README file because of its length.
 
-> If you use peco, please consider sponsoring the authors of this project from the "Sponsor" button on the project page at https://github.com/peco/peco. Sponsorship plans start at $1 :)
+> If you use peco, please consider sponsoring the authors of this project from the "Sponsor" button on the project page at https://github.com/lalitadithya/peco. Sponsorship plans start at $1 :)
 
 # Description
 
-`peco` (pronounced *peh-koh*) is based on a python tool, [percol](https://github.com/mooz/percol). `percol` was darn useful, but I wanted a tool that was a single binary, and forget about python. `peco` is written in Go, and therefore you can just grab [the binary releases](https://github.com/peco/peco/releases) and drop it in your $PATH.
+`peco` (pronounced *peh-koh*) is based on a python tool, [percol](https://github.com/mooz/percol). `percol` was darn useful, but I wanted a tool that was a single binary, and forget about python. `peco` is written in Go, and therefore you can just grab [the binary releases](https://github.com/lalitadithya/peco/releases) and drop it in your $PATH.
 
 `peco` can be a great tool to filter stuff like logs, process stats, find files, because unlike grep, you can type as you think and look through the current results.
 
-For basic usage, continue down below. For more cool elaborate usage samples, [please see the wiki](https://github.com/peco/peco/wiki/Sample-Usage), and if you have any other tricks you want to share, please add to it!
+For basic usage, continue down below. For more cool elaborate usage samples, [please see the wiki](https://github.com/lalitadithya/peco/wiki/Sample-Usage), and if you have any other tricks you want to share, please add to it!
 
 ## Demo
 
@@ -85,7 +85,7 @@ I have been told that peco even works on windows :) Look ma! I'm not lying!
 
 ### Just want the binary?
 
-Go to the [releases page](https://github.com/peco/peco/releases), find the version you want, and download the zip file. Unpack the zip file, and put the binary to somewhere you want (on UNIX-y systems, /usr/local/bin or the like). Make sure it has execution bits turned on. Yes, it is a single binary! You can put it anywhere you want :)
+Go to the [releases page](https://github.com/lalitadithya/peco/releases), find the version you want, and download the zip file. Unpack the zip file, and put the binary to somewhere you want (on UNIX-y systems, /usr/local/bin or the like). Make sure it has execution bits turned on. Yes, it is a single binary! You can put it anywhere you want :)
 
 _THIS IS THE RECOMMENDED WAY_ (except for macOS homebrew users)
 
@@ -139,7 +139,7 @@ C:\> choco install peco
 
 ### Building peco yourself
 
-Make sure to clone the source code under $GOPATH (i.e. $GOPATH/src/github.com/peco/peco). This is required
+Make sure to clone the source code under $GOPATH (i.e. $GOPATH/src/github.com/lalitadithya/peco). This is required
 as the main binary refers to an internal package, which requires that the source code be located in
 the correct package location.
 
@@ -479,7 +479,7 @@ Some keys just... don't map correctly / too easily for various reasons. Here, we
 
 ### Default Keymap
 
-Note: If in case below keymap seems wrong, check the source code in [keymap.go](https://github.com/peco/peco/blob/master/keymap.go) (look for NewKeymap).
+Note: If in case below keymap seems wrong, check the source code in [keymap.go](https://github.com/lalitadithya/peco/blob/master/keymap.go) (look for NewKeymap).
 
 |Key|Action|
 |---|------|
@@ -599,7 +599,7 @@ You may specify as many filters as you like in the `CustomFilter` section.
 ### Examples
 
 * [An example of a simple perl regexp matcher](https://gist.github.com/mattn/24712964da6e3112251c)
-* [An example using migemogrep Japanese grep using latin-1 chars](https://github.com/peco/peco/wiki/CustomFilter)
+* [An example using migemogrep Japanese grep using latin-1 chars](https://github.com/lalitadithya/peco/wiki/CustomFilter)
 
 ## Layout
 
@@ -641,16 +641,16 @@ Note: This has no effect on Windows because Windows console does not support ext
 
 ## Does peco work on (msys2|cygwin)?
 
-No. https://github.com/peco/peco/issues/336#issuecomment-243939696
-(Updated Feb 23, 2017: "Maybe" on cygwin https://github.com/peco/peco/issues/336#issuecomment-281912949)
+No. https://github.com/lalitadithya/peco/issues/336#issuecomment-243939696
+(Updated Feb 23, 2017: "Maybe" on cygwin https://github.com/lalitadithya/peco/issues/336#issuecomment-281912949)
 
 ## Non-latin fonts (e.g. Japanese) look weird on my Windows machine...?
 
-Are you using raster fonts? https://github.com/peco/peco/issues/341
+Are you using raster fonts? https://github.com/lalitadithya/peco/issues/341
 
 ## Seeing escape sequences `[200~` and `[201~` when pasting text?
 
-Disable bracketed paste mode. https://github.com/peco/peco/issues/417
+Disable bracketed paste mode. https://github.com/lalitadithya/peco/issues/417
 
 # Hacking
 

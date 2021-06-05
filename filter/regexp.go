@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/peco/peco/internal/util"
-	"github.com/peco/peco/line"
-	"github.com/peco/peco/pipeline"
+	"github.com/lalitadithya/peco/internal/util"
+	"github.com/lalitadithya/peco/line"
+	"github.com/lalitadithya/peco/pipeline"
 	"github.com/pkg/errors"
 )
 

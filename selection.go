@@ -2,7 +2,7 @@ package peco
 
 import (
 	"github.com/google/btree"
-	"github.com/peco/peco/line"
+	"github.com/lalitadithya/peco/line"
 )
 
 // NewSelection creates a new empty Selection
